@@ -1,7 +1,7 @@
-package com.rakuten.auditing.controller;
+package com.patni.auditing.controller;
 
-import com.rakuten.auditing.demo.entity.User;
-import com.rakuten.auditing.service.UserService;
+import com.patni.auditing.demo.entity.User;
+import com.patni.auditing.service.UserService;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,6 +1,6 @@
-package com.rakuten.auditing.demo.repository;
+package com.patni.auditing.demo.repository;
 
-import com.rakuten.auditing.demo.entity.User;
+import com.patni.auditing.demo.entity.User;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

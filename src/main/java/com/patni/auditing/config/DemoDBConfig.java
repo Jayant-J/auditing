@@ -1,4 +1,4 @@
-package com.rakuten.auditing.config;
+package com.patni.auditing.config;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -20,7 +20,7 @@ import java.util.HashMap;
 @Configuration
 @EnableTransactionManagement
 @EnableJpaRepositories(
-        basePackages = {"com.rakuten.auditing.demo.repository"},
+        basePackages = {"com.patni.auditing.demo.repository"},
         entityManagerFactoryRef = "demoEntityManagerFactory",
         transactionManagerRef = "demoTransactionManager"
 )
@@ -40,7 +40,7 @@ public class DemoDBConfig {
         HashMap<String, Object> properties = new HashMap<>();
         properties.put("hibernate.hbm2ddl.auto", "update");
         return builder.dataSource(dataSource).properties(properties)
-                .packages("com.rakuten.auditing.demo.entity").persistenceUnit("User").build();
+                .packages("com.patni.auditing.demo.entity").persistenceUnit("User").build();
     }
 
     @Primary

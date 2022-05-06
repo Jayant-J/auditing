@@ -1,7 +1,7 @@
-package com.rakuten.auditing.service;
+package com.patni.auditing.service;
 
-import com.rakuten.auditing.demo.entity.User;
-import com.rakuten.auditing.demo.repository.UserRepository;
+import com.patni.auditing.demo.entity.User;
+import com.patni.auditing.demo.repository.UserRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

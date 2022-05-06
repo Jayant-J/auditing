@@ -1,4 +1,4 @@
-package com.rakuten.auditing.audit.entity;
+package com.patni.auditing.audit.entity;
 
 
 import lombok.Data;

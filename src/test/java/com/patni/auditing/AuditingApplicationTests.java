@@ -1,4 +1,4 @@
-package com.rakuten.auditing;
+package com.patni.auditing;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

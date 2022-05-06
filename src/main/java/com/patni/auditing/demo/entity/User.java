@@ -1,4 +1,4 @@
-package com.rakuten.auditing.demo.entity;
+package com.patni.auditing.demo.entity;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

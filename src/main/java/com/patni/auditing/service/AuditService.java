@@ -1,7 +1,7 @@
-package com.rakuten.auditing.service;
+package com.patni.auditing.service;
 
-import com.rakuten.auditing.audit.entity.EntityAudits;
-import com.rakuten.auditing.audit.repository.AuditRepository;
+import com.patni.auditing.audit.entity.EntityAudits;
+import com.patni.auditing.audit.repository.AuditRepository;
 import lombok.AllArgsConstructor;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -19,7 +19,7 @@ public class AuditService {
     private AuditRepository auditRepository;
 
     //*return type, package, class, method
-    @Pointcut(value = "execution(* com.rakuten.auditing.demo.repository.*.save(..) )")
+    @Pointcut(value = "execution(* com.patni.auditing.demo.repository.*.save(..) )")
     public void auditingPointCut() {
 
     }

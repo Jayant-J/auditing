@@ -1,6 +1,6 @@
-package com.rakuten.auditing.audit.repository;
+package com.patni.auditing.audit.repository;
 
-import com.rakuten.auditing.audit.entity.EntityAudits;
+import com.patni.auditing.audit.entity.EntityAudits;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

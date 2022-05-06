@@ -1,4 +1,4 @@
-package com.rakuten.auditing.config;
+package com.patni.auditing.config;
 
 import org.springframework.data.domain.AuditorAware;
 
